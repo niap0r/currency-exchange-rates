@@ -1,0 +1,17 @@
+<h1>Current exchange rates of some of the world's biggest currencies in Euro.</h1>
+
+<div class="container">
+  <div *ngIf="currencyReports" class="card-columns text-center">
+    <div class="card shadow-sm p-1" *ngFor="let currency of currencyReports">
+      <div class="card-header bg-primary">
+        <h4 class="font-weight-normal text-white">{{ currency.name }}</h4>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title pricing-card-title">{{ currency.inEuro }}€</h3>
+        <ul class="list-unstyled">
+          <li>per Euro {{ currency.perEuro }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

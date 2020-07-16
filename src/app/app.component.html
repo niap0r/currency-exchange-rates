@@ -1,3 +1,26 @@
+<nav
+  class="bg-white border-bottom shadow-sm sticky-top navbar-light navbar navbar-expand-md"
+>
+  <h5 class="my-0 mr-md-auto font-weight-normal">Currency Exchange</h5>
 
+  <button
+    class="navbar-toggler"
+    data-toggle="collapse"
+    data-target="#collapse_target"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<router-outlet></router-outlet>
+  <div class="collapse navbar-collapse" id="collapse_target">
+    <nav class="navbar-nav ml-auto">
+      <a class="p-2 text-dark nav-item" href="#" routerLink="/">Features</a>
+      <a class="p-2 text-dark nav-item" href="#" routerLink="/price-check"
+        >Price Check</a
+      >
+      <a class="btn btn-outline-primary" href="#">Login</a>
+    </nav>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
