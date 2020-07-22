@@ -1,5 +1,12 @@
 # CurrencyExchangeRates
 
+A webapp, written in TypeScript in Angular 10 for learning purposes.
+
+Shows currency exchange rates in Euro and a login form mockup.
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
 ## Development server
